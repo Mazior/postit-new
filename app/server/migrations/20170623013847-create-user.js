@@ -28,8 +28,7 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DATE
       },
-    });
-  },
-  down: (queryInterface,/* , Sequelize */)=> queryInterface.dropTable('users'),
+    }),
+  down: (queryInterface /* , Sequelize */) => queryInterface.dropTable('users'),
 
 };
